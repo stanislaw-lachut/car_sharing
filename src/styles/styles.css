@@ -12,3 +12,24 @@
     --gray-7: #00000066;
     --gray-8: #28272C;
 }
+
+.intro{}
+
+.header{}
+.header .header__inner{}
+
+.logo{}
+.logo .logo__img{}
+.logo.logo__text{}
+.logo .logo__text.logo__text--primary{}
+
+.mainManu{}
+.mainMenu .mainMenu__item{}
+.mainManu .mainMenu__item.mainMenu__item--active{}
+.hero{}
+.hero .hero_hdl{}
+.hero .hero__lead{}
+.hero .hero__wrapper{}
+.hero .hero__btn{}
+.hero .hero__btn.hero__btn--primary{}
+.hero .hero__btn.hero__btn--icon{}
