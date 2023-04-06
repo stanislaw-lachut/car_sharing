@@ -109,6 +109,12 @@ html, body {
     background-color: var(--white);
 }
 
+.btn--outline{
+    border: 0.0625rem solid var(--primary);
+    box-shadow: 0 .1875rem .375rem var(--primary-light);
+    cursor: pointer;
+
+}
 .intro {
     background-image: url("../images/intro_bg.png");
     min-height: 100vh;
@@ -254,6 +260,13 @@ html, body {
     justify-content: space-between;
 }
 
+.cols--wrapper{
+    width: 100%;
+    max-width: 56.5rem;
+    /*margin-inline: ;*/
+
+}
+
 .article{
     font-family: 'Nunito Sans', sans-serif;
     color: var(--gray-3);
@@ -302,3 +315,54 @@ html, body {
     font-weight: 300;
     margin: 0 0 .9375rem 0;
 }
+
+.formPhoto {
+    width: 100%
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+}
+.contactForm .contactForm__group {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+    column-gap: .625rem;
+}
+.contactForm .contactForm__input {
+    border: 0.0625rem solid var(--gray-1);
+    border-radius: .5rem;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: var(--gray-4);
+    margin-bottom: 1.25rem;
+    outline: 0;
+    resize: none;
+}
+
+.contactForm .contactForm__input::placeholder {
+    font-size: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    color: var(--gray-2);
+}
+
+.contactForm .contactForm__lbl {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .625rem;
+    line-height: 1.4;
+    color: var(--gray-2);
+    font-weight: 300;
+}
+
+.contactForm .contactForm__agreement{
+    /*align-self:;*/
+}
+.contactForm .contactForm__submit {
+    align-self: flex-end;
+}
+.contactForm .contactForm__input.contactForm__input--error{}
