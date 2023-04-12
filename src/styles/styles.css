@@ -29,15 +29,7 @@ html, body {
     margin-bottom: 2.1875rem;
 }
 
-/*.hdl span::before{*/
-/*    content: '';*/
-/*    width: 3.125rem;*/
-/*    height: .1875rem;*/
-/*    background-color: var(--primary);*/
-/*    display: ;*/
-/*    */
-/*}*/
-.hdl::before {
+.hdl::before, .hdl::after {
     content: '';
     width: 3.125rem;
     height: .1875rem;
