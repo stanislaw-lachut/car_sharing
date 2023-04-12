@@ -25,6 +25,7 @@ html, body {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
     margin-bottom: 2.1875rem;
 }
 
@@ -263,8 +264,8 @@ html, body {
 .cols--wrapper{
     width: 100%;
     max-width: 56.5rem;
-    /*margin-inline: ;*/
-
+    margin-inline: auto;
+    align-items: flex-start;
 }
 
 .article{
@@ -293,7 +294,7 @@ html, body {
 
 .service {
     text-align: center;
-    max-width: 14.375rem;
+    max-width: 14.675rem;
     margin-inline: auto;
 }
 .service .service__img {
@@ -365,4 +366,12 @@ html, body {
 .contactForm .contactForm__submit {
     align-self: flex-end;
 }
-.contactForm .contactForm__input.contactForm__input--error{}
+
+.contactForm .contactForm__input.contactForm__input--error {
+    border-color: var(--primary);
+    box-shadow: 0 .0625rem .375rem var(--primary-light);
+}
+
+
+
+
